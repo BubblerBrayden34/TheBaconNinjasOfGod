@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)https://gamesite.cdnpog.com/84d15f0f-2442-42d7-95f8-e63b354a1775/index.html?noads=true -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://gamesite.cdnpog.com/84d15f0f-2442-42d7-95f8-e63b354a1775/favicon.ico">
+
+	<title>Crossyroad</title>
+
+	<!-- Google -->
+	<script async="" src="./Crossyroadg_files/f.txt" crossorigin="anonymous"></script>
+	<script async="" src="./Crossyroadg_files/js"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-RN2RSBQT28');
+	</script>
+
+	<link rel="stylesheet" href="./Crossyroadg_files/style.css">
+	<link rel="stylesheet" async="" href="./Crossyroadg_files/app-store-interstitial.css">
+
+	<script src="./Crossyroadg_files/extra.min.js.download"></script>
+	<script src="./Crossyroadg_files/poki-sdk.js.download"></script><script src="./Crossyroadg_files/poki-sdk-core-v2.234.2.js.download" type="text/javascript" crossorigin="anonymous"></script>
+<script src="./Crossyroadg_files/gamepog.bundle.js.download"></script><script src="./Crossyroadg_files/asset-loader.min.js.download"></script><script src="./Crossyroadg_files/three.min.js.download"></script><script src="./Crossyroadg_files/game.min.js.download"></script><script src="./Crossyroadg_files/game.min.js.download"></script><style>
+#loading-bar {
+	position: absolute;
+	z-index: 9999999;
+	width: 93%;
+	height: 5%;
+	left: 2.5%;
+	bottom: -12%;
+	transition: all 0.5s ease-in-out;
+	transform: translate3d(0,0,0);
+	perspective: 1000px;
+}
+
+#loading-bar-inner-container {
+	position: absolute;
+	background: #4ecbff;
+	box-shadow: inset 0 -5px #0ea9f1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+#loading-bar-bar {
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #fea47c;
+	transform-origin: left;
+	box-shadow: inset 0 -5px #ff8149;
+	transition: 0.2s all ease-out;
+	z-index: 1;
+	perspective: 1000px;
+}
+
+#loading-bar-text {
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	color: #fff;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	top: 8%;
+	text-shadow: 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.loading-bar-border {
+	background: #fff;
+	position: absolute;
+}
+
+#loading-bar-chicken {
+	position: absolute;
+	right: -3%;
+	top: -60%;
+	height: 200%;
+	z-index: 1;
+	transform-origin: 50% 100%;
+	animation: chicken-idle-animation .6s ease-in-out alternate infinite;
+}
+
+@keyframes chicken-idle-animation {
+	0%  { transform: scale3d(1, 1, 1); }
+	15%  { transform: scale3d(1, 1, 1); }
+	85% { transform: scale3d(1.1, .9, 1.1); }
+	100% { transform: scale3d(1.1, .9, 1.1); }
+}
+</style><script src="./Crossyroadg_files/tween.min.js.download"></script><link type="text/css" rel="stylesheet" href="./Crossyroadg_files/EditUndoBrk.css"><link type="text/css" rel="stylesheet" href="./Crossyroadg_files/8bitwonder.css"><script src="./Crossyroadg_files/three.min.js.download"></script><script src="./Crossyroadg_files/game.min.js.download"></script><style>
+.pokiSdkContainer {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pokiSdkContainer.pokiSdkFixed {
+	position: fixed;
+}
+
+.pokiSdkContainer.pokiSdkVisible {
+	display: block;
+}
+
+.pokiSdkContainer.pokiSdkHidden,
+.pokiSdkSpinnerContainer.pokiSdkHidden {
+	display: none;
+}
+
+.pokiSdkContainer.pokiSdkHidden,
+.pokiSdkSpinnerContainer {
+	pointer-events: none;
+}
+
+.pokiSdkSpinnerContainer {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('https://a.poki.com/images/thumb_anim_2x.gif') 50% 50% no-repeat;
+	user-select: none;
+}
+
+.pokiSdkInsideContainer {
+	background: #000;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.pokiSdkContainer.pokiSdkVisible .pokiSdkInsideContainer {
+	opacity: 1;
+}
+
+.pokiSDKAdContainer, .pokiSdkVideoContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.pokiSdkStartAdButton {
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+
+	padding-top: 10%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #FFF;
+
+	font: 700 15pt 'Arial', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: 0.1s ease-in-out;
+	line-height: 1em;
+}
+
+.pokiSdkPauseButton {
+	cursor:pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+.pokiSdkPauseButton:before {
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	display: block;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	user-select: none;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: background-color 0.5s ease;
+	animation: 1s linear infinite pulse;
+}
+
+.pokiSdkPauseButton:after {
+	content: '';
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	border-color: transparent transparent transparent #fff;
+	border-style: solid;
+	border-width: 26px 0 26px 40px;
+	pointer-events: none;
+	animation: 1s linear infinite pulse;
+	left: 6px;
+}
+.pokiSdkPauseButtonBG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    background: rgba(0, 43, 80, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.pokiSdkPauseButtonBG:hover{
+	background: rgba(0, 43, 80, 0.7);
+}
+
+@keyframes pulse {
+	0% {
+		transform: translate(-50%, -50%) scale(0.95);
+	}
+	70% {
+		transform: translate(-50%, -50%) scale(1.1);
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(0.95);
+	}
+}
+
+.pokiSdkProgressContainer {
+	background: #B8C7DD;
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	bottom: 0;
+	z-index: 9999;
+}
+
+.pokiSdkProgressBar {
+	position:relative;
+	bottom:0px;
+	background: #FFDC00;
+	height: 100%;
+	width: 0%;
+	transition: width 0.5s;
+	transition-timing-function: linear;
+}
+
+.pokiSdkProgressBar.pokiSdkVisible, .pokiSdkPauseButton.pokiSdkVisible, .pokiSdkStartAdButton.pokiSdkVisible {
+	display: block;
+	pointer-events: auto;
+}
+
+.pokiSdkProgressBar.pokiSdkHidden, .pokiSdkPauseButton.pokiSdkHidden, .pokiSdkStartAdButton.pokiSdkHidden {
+	display: none;
+	pointer-events: none;
+}
+</style><style>
+#loading-bar {
+	position: absolute;
+	z-index: 9999999;
+	width: 93%;
+	height: 5%;
+	left: 2.5%;
+	bottom: -12%;
+	transition: all 0.5s ease-in-out;
+	transform: translate3d(0,0,0);
+	perspective: 1000px;
+}
+
+#loading-bar-inner-container {
+	position: absolute;
+	background: #4ecbff;
+	box-shadow: inset 0 -5px #0ea9f1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+#loading-bar-bar {
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #fea47c;
+	transform-origin: left;
+	box-shadow: inset 0 -5px #ff8149;
+	transition: 0.2s all ease-out;
+	z-index: 1;
+	perspective: 1000px;
+}
+
+#loading-bar-text {
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	color: #fff;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	top: 8%;
+	text-shadow: 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.loading-bar-border {
+	background: #fff;
+	position: absolute;
+}
+
+#loading-bar-chicken {
+	position: absolute;
+	right: -3%;
+	top: -60%;
+	height: 200%;
+	z-index: 1;
+	transform-origin: 50% 100%;
+	animation: chicken-idle-animation .6s ease-in-out alternate infinite;
+}
+
+@keyframes chicken-idle-animation {
+	0%  { transform: scale3d(1, 1, 1); }
+	15%  { transform: scale3d(1, 1, 1); }
+	85% { transform: scale3d(1.1, .9, 1.1); }
+	100% { transform: scale3d(1.1, .9, 1.1); }
+}
+</style></head>
+<body>
+	<script src="./Crossyroadg_files/bootstrap.min.js.download"></script><div id="container" style="position: absolute; left: 50%; top: 50%; background: rgb(123, 203, 237); display: block; overflow: hidden; width: 1322.67px; height: 744px; margin-left: -661.333px; margin-top: -372px;"><canvas width="1322" height="744" style="width: 1322.66px; height: 744px; transform: translateZ(0px);"></canvas><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; perspective: 1000px; display: none; justify-content: center; align-items: center; z-index: 2; overflow: hidden;"><img src="./Crossyroadg_files/crossy-road-logo.png" style="min-width: 50%; max-width: 80%; max-height: 50%; margin-top: -15%; position: relative; pointer-events: none; z-index: 2; transform: translate3d(-1322.66px, -329.775px, 0px); display: block; transition: all 750ms cubic-bezier(0.895, 0.03, 0.685, 0.22) 0s;"><div style="z-index: 1; background-color: rgb(105, 206, 236); transition: opacity 0.5s ease-in 0s; opacity: 0; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; perspective: 1000px;"></div></div></div>
+
+<div style="font-family: EditUndoBrk; width: 0px; height: 0px; overflow: hidden;">Loading EditUndoBrk</div><div style="width: 0px; height: 0px; overflow: hidden;">Loading 8bitwonder</div><div style="position: absolute; display: block; background-color: rgba(105, 206, 236, 0.4); z-index: 4; left: 134.672px; top: 0px; width: 1322.66px; height: 744px;"><div style="font: 66px / 103px EditUndoBrk; color: rgb(255, 255, 255); text-align: center; width: 310px; height: 103px; position: absolute; left: 50%; top: 50%; display: none; margin-left: -155px; margin-top: -51.5px;"></div><img class="pixelated" src="./Crossyroadg_files/pause.png" style="position: absolute; left: 50%; top: 47.5%; height: 10%; display: block; margin-top: -37.1953px; margin-left: -37.1953px;"></div><div class="pokiSdkContainer pokiSdkHidden pokiSdkFixed"><div class="pokiSdkInsideContainer"><div class="pokiSdkProgressContainer pokiSdkHidden"><div class="pokiSdkProgressBar" style="width: 0%;"></div></div><video id="pokiSDKVideoContainer" class="pokiSdkVideoContainer" playsinline="playsinline" muted="muted"></video><div id="pokiSDKAdContainer" class="pokiSDKAdContainer"></div></div><div class="pokiSdkSpinnerContainer"></div><div class="pokiSdkPauseButton pokiSdkHidden"><div class="pokiSdkPauseButtonBG"></div></div><div class="pokiSdkStartAdButton pokiSdkHidden">Tap anywhere to play ad</div></div></body></html>
