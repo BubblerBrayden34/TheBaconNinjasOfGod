@@ -520,15 +520,15 @@
 		}
 		else {
 			console.log("SharedArrayBuffer not available, disable threads.");
-			mainJsScript.src = 'index-nothreads.js';
+			mainJsScript.src = 'index.js';
 			// Overwrite index.pck, and wasm.pck
 			var pckSize = GODOT_CONFIG.fileSizes['index.pck'];
 			var wasmSize = GODOT_CONFIG.fileSizes['index.wasm'];
 
 			GODOT_CONFIG.executable = 'index-nothreads';
 			GODOT_CONFIG.fileSizes = {
-				'index-nothreads.pck' : pckSize,
-				'index-nothreads.wasm' : wasmSize,
+				'index.pck' : pckSize,
+				'index.wasm' : wasmSize,
 			};
 
 		}
