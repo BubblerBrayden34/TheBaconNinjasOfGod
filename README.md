@@ -8,7 +8,38 @@ With a poll to let people vote for their favorite games to be added, tab cloaks,
 ![image](https://raw.githubusercontent.com/BubblerBrayden34/DownInOhiogames/main/image_2024-05-20_203858969.png)
 
 
+# Table of Contents
+- 🎮 [Games](#-Games)
+- 📄 [Polls](#-Polls)
+- 💳 [Credits](#-Credits)
+
+# 🎮 Games
+So far, there are 12 games:
+
+Slope
+Armed Forces Io
+Tunnel Rush
+Rooftop Snipers
+We Become What We Behold
+Gunspin
+4th of July Baseball
+1v1 lol
+Doodle Jump
+Friday Night Funkin'
+Rocket Bot Royale
+Sonic 3 AIR
+
+Many more are soon to follow!
+More Games will be added frequently!
 
 
-# How Polls Work
+# 📄 Polls
 
+You, thats right, you can take part in what games we add!
+By voting by using this [poll,](https://docs.google.com/forms/d/e/1FAIpQLSeRuyMLWqG3ZIPwPjce8wIR2xjsmq0Zv5EcxpvX_-1fESxfvw/viewform?usp=sf_link) you can take your part and who knows, maybe your game will be added!
+Frequently, (perferably every week) we will check the poll results and add the top 3 games from the poll into the website. Sometimes, we might add a random game that has very low votes!
+
+
+# 💳 Credits
+
+This project could not have been done without [BubblerBrayden34,](https://github.com/BubblerBrayden34) Lucci, and all of the people who made the games.
