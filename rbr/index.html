@@ -13,7 +13,7 @@
 
 	<script type='text/javascript'>
 		function getAdDriver() {
-			var adDriver = "adinplay"; 
+			var adDrfiver = "adinplay"; 
 			var referrer = document.referrer.toLowerCase();
 			if(referrer.indexOf("crazygames") != -1 || referrer.indexOf("onlinegame") != -1 || referrer.indexOf("speelspelletjes") != -1 || referrer.indexOf("1001juegos") != -1) {
 				adDriver = "crazygames";
@@ -38,7 +38,7 @@
 	<script type="text/javascript" src="winterpixelads.js"></script>
 	<script type="text/javascript" src="winterpixel_discord.js"></script>
 	<script type="text/javascript" src="screenfull.js"></script>
-	<script src="/paystation.js"></script>
+	<script src="rbr/paystation.js"></script>
 	<style type='text/css'>
 
 		body {
@@ -516,14 +516,14 @@
 		mainJsScript.type = 'text/javascript';
 		if(threads_supported) {
 			console.log("Detected SharedArrayBuffer, using threads.");
-			mainJsScript.src = 'index.js';
+			mainJsScript.src = 'rbr/index.js';
 		}
 		else {
 			console.log("SharedArrayBuffer not available, disable threads.");
 			mainJsScript.src = 'index-nothreads.js';
 			// Overwrite index.pck, and wasm.pck
-			var pckSize = GODOT_CONFIG.fileSizes['index.pck'];
-			var wasmSize = GODOT_CONFIG.fileSizes['index.wasm'];
+			var pckSize = GODOT_CONFIG.fileSizes['/rbrindex.pck'];
+			var wasmSize = GODOT_CONFIG.fileSizes['/rbrindex.wasm'];
 
 			GODOT_CONFIG.executable = 'index-nothreads';
 			GODOT_CONFIG.fileSizes = {
