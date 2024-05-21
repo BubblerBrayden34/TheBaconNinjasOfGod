@@ -39,7 +39,7 @@ By voting by using this [poll,](https://docs.google.com/forms/d/e/1FAIpQLSeRuyML
 Frequently, (perferably every week) we will check the poll results and add the top 3 games from the poll into the website. Sometimes, we might add a random game that has very low votes!
 
 
-# 💳 Credits and Notes
+# 💳 Credits
 
 This project could not have been done without [BubblerBrayden34,](https://github.com/BubblerBrayden34) Lucci, and all of the people who made the games.
 
