@@ -5,7 +5,7 @@ One of the finest unblocked games websites!
 
 With a poll to let people vote for their favorite games to be added, tab cloaks, and much more (aka hours of my life wasted,) This website is surley to entertain you for days!
 
-![image](https://github.com/BubblerBrayden34/DownInOhiogames/blob/main/image_2024-05-21_142803996.png?raw=true)
+![image]()
 
 
 # Table of Contents
@@ -14,7 +14,7 @@ With a poll to let people vote for their favorite games to be added, tab cloaks,
 - 💳 [Credits and Notes](#-Credits)
 
 # 🎮 Games
-So far, there are 12 games:
+So far, there are 11 games:
 
 Slope
 Armed Forces Io
@@ -25,8 +25,7 @@ Gunspin
 4th of July Baseball
 1v1 lol
 Doodle Jump
-Friday Night Funkin'
-Rocket Bot Royale
+Friday Night Funkin
 Sonic 3 AIR
 
 Many more are soon to follow!
