@@ -41,6 +41,6 @@ Frequently, (perferably every week) we will check the poll results and add the t
 
 # 💳 Credits
 
-This project could not have been done without [BubblerBrayden34,](https://github.com/BubblerBrayden34) Lucci, and all of the people who made the games.
+This project could not have been done without [BubblerBrayden34,](https://github.com/BubblerBrayden34) Skruzzy, and all of the people who made the games.
 
 We are planning to add emulated games, and much more!
