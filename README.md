@@ -5,13 +5,13 @@ One of the finest unblocked games websites!
 
 With a poll to let people vote for their favorite games to be added, tab cloaks, and much more (aka hours of my life wasted,) This website is surley to entertain you for days!
 
-![image](https://raw.githubusercontent.com/BubblerBrayden34/DownInOhiogames/main/image_2024-05-20_203858969.png)
+![image](https://github.com/BubblerBrayden34/DownInOhiogames/blob/main/image_2024-05-21_142803996.png?raw=true)
 
 
 # Table of Contents
 - 🎮 [Games](#-Games)
 - 📄 [Polls](#-Polls)
-- 💳 [Credits](#-Credits)
+- 💳 [Credits and Notes](#-Credits)
 
 # 🎮 Games
 So far, there are 12 games:
@@ -40,6 +40,8 @@ By voting by using this [poll,](https://docs.google.com/forms/d/e/1FAIpQLSeRuyML
 Frequently, (perferably every week) we will check the poll results and add the top 3 games from the poll into the website. Sometimes, we might add a random game that has very low votes!
 
 
-# 💳 Credits
+# 💳 Credits and Notes
 
 This project could not have been done without [BubblerBrayden34,](https://github.com/BubblerBrayden34) Lucci, and all of the people who made the games.
+
+We are planning to add emulated games, and much more!
