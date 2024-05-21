@@ -5,7 +5,7 @@ One of the finest unblocked games websites!
 
 With a poll to let people vote for their favorite games to be added, tab cloaks, and much more (aka hours of my life wasted,) This website is surley to entertain you for days!
 
-![image]()
+![image](https://github.com/BubblerBrayden34/DownInOhiogames/blob/main/image_2024-05-21_195434594.png?raw=true)
 
 
 # Table of Contents
@@ -43,4 +43,4 @@ Frequently, (perferably every week) we will check the poll results and add the t
 
 This project could not have been done without [BubblerBrayden34,](https://github.com/BubblerBrayden34) Skruzzy, and all of the people who made the games.
 
-We are planning to add emulated games, and much more!
+We are planning to add emulated games, utilitys, Discord, and much more!
