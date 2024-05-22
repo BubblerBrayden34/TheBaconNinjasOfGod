@@ -16,17 +16,17 @@ With a poll to let people vote for their favorite games to be added, tab cloaks,
 # 🎮 Games
 So far, there are 11 games:
 
-Slope
-Armed Forces Io
-Tunnel Rush
-Rooftop Snipers
-We Become What We Behold
-Gunspin
-4th of July Baseball
-1v1 lol
-Doodle Jump
-Friday Night Funkin
-Sonic 3 AIR
+Slope, 
+Armed Forces Io, 
+Tunnel Rush, 
+Rooftop Snipers, 
+We Become What We Behold, 
+Gunspin, 
+4th of July Baseball, 
+1v1 lol, 
+Doodle Jump, 
+Friday Night Funkin, and
+Sonic 3 AIR.
 
 Many more are soon to follow!
 More Games will be added frequently!
