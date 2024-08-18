@@ -45,7 +45,7 @@ function getFireBaseConfigProd(){
 function getFireBaseConfigDev(){
 	// Your web app's Firebase configuration
 	return {
-		apiKey: "AIzaSyANZ0SDhqoc62msSooQFs3SEb4XbC7gvk4",
+		apiKey: "",
 		authDomain: "dev.1v1.lol",
 		databaseURL: "https://dev1v1.firebaseio.com",
 		projectId: "dev1v1",
@@ -58,7 +58,7 @@ function getFireBaseConfigDev(){
 function getFireBaseConfigRC(){
 	// Your web app's Firebase configuration
 	return {
-		apiKey: "AIzaSyA1H3OsFttu-57p0f7mXxUdgJ2Y0iHZRJg",
+		apiKey: "",
 		authDomain: "rcfunctions1v1.firebaseapp.com",
 		projectId: "rcfunctions1v1",
 		storageBucket: "rcfunctions1v1.appspot.com",
