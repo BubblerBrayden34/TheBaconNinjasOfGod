@@ -32,7 +32,7 @@ function initializeFireBase() {
 function getFireBaseConfigProd(){
 	// Your web app's Firebase configuration
 	return {
-		apiKey: "AIzaSyBPrAfspM9RFxuNuDtSyaOZ5YRjDBNiq5I",
+		apiKey: "",
 		authDomain: "1v1.lol",
 		databaseURL: "https://justbuild-cdb86.firebaseio.com",
 		projectId: "justbuild-cdb86",
