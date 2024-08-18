@@ -1,0 +1,1 @@
+if(document.referrer){var wgRefUniversal=new URL(document.referrer);if(wgRefUniversal.hostname.indexOf('unblocked-games.s3.amazonaws.com')===-1&&!localStorage.getItem('wgRefferer')){localStorage.setItem('wgRefferer',wgRefUniversal.hostname);}}

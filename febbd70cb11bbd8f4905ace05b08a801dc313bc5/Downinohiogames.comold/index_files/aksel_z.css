@@ -1,0 +1,92 @@
+/*****
+Copyright © 2010 UC Regents and ALEKS Corporation
+ALEKS® is a registered trademark of ALEKS Corporation.
+*****/
+a:link, a:visited {color: #006633;}
+a.none {color: #0000ff;}
+a.name {color: #000000;}
+a.section {color: #00529b;font-weight: bold;}
+ul.manual {margin-left: 0.5em;}
+li.manual {margin-left: 0.6em;}
+body {font: 10pt Verdana;}
+td {font: 10pt Verdana;}
+td.aksel,th.aksel {border-top: 0px;border-bottom: 1px solid #999999;border-right: 1px solid #999999;border-left: 0px;}
+table.aksel {border-top: 1px solid #999999;border-bottom: 0px;border-right: 0px;border-left: 1px solid #999999;}
+td.aksel2,th.aksel2 {border-top: 0px;border-bottom: 1px solid #C0C0C0;border-right: 1px solid #C0C0C0;border-left: 0px;background: #FFFFFF;font: 10pt Verdana;}
+th.aksel2 {font-weight: bold;color: #003D7D;background: #F1F1F1;}
+table.aksel2 {border-top: 1px solid #B4B4B4;border-bottom: 0px;border-right: 0px;border-left: 1px solid #B4B4B4;font: 10pt Verdana;}
+span.wlnk, span.wlnk2{padding-right: 8px;border-right: 1px solid #f1f1f1;color: #006633;font-size: 7pt;font-weight: bold;}
+span.wlnk2{border-right: none;padding-right: 0px;}
+a.wlnk{padding-left: 8px;text-decoration: none;}
+input.text_search {position: relative;border: 0;padding: 0;overflow: visible;border: 1px solid #f1f1f1;width: 110px;background-color: #C2CEE6;height: 19px;color: #000000;}
+input.text_search_support {border: 1px inset #E4E4E4;width: 310px;height: 21px;}
+input.searchHighlighted{background-color: #E0E6F3;}
+button.search, button.but {background: #ACD4AC;border: 1px outset #ACD4AC;color: #006633;font-family: Verdana;font-weight: bold;font-size: 7pt;padding: 2px 3px;cursor: pointer;}
+button.but {font-size: 8pt;padding: 3px 4px;}
+td.lw_menu{padding: 0px;border-top: 2px solid #ffffff;border-bottom: 2px solid #ffffff;white-space: nowrap;}
+.ssb,.ssbs,.ossb,.ossbs,.bssb,.bssbs,.gssb,.gssbs{display: inline-block;background-repeat: no-repeat;height: 16px;overflow: hidden;float: left;cursor: pointer;}
+.sub,.subs,.osub,.osubs,.bsub,.bsubs,.gsub,.gsubs{display: inline-block;background-position:100% 0;background-repeat:no-repeat;height:16px;overflow:hidden;margin-left: 21px;padding-right: 21px;padding-top: 1px;text-align: center;font-weight: bold;font-size: 9px;font-family: Verdana;text-decoration: none;white-space: nowrap;border-right: 1px solid #ffffff;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {.sub,.subs,.osub,.osubs,.bsub,.bsubs,.gsub,.gsubs{padding-top: 2px;}
+}
+.ssb,.sub,.ssbs,.subs{background-image: url('/web/20110212004747im_/http://www.aleks.com/website/buts_nav.png');}
+.ssb,.sub{color: #006633;}
+.ssbs,.subs{color: #ffffff;}
+.subs{background-position:100% -17px;}
+.ssbs{background-position:0px -17px;}
+.ossb,.ossbs,.bssb,.bssbs,.gssb,.gssbs,.osub,.osubs,.bsub,.bsubs,.gsub,.gsubs{background-image: url('/web/20110212004747im_/http://www.aleks.com/website/buts_home.png');height: 25px;color: #ffffff;border-right: 0px;}
+.ossb,.ossbs,.bssb,.bssbs,.gssb,.gssbs{width: 100%;}
+.osub,.osubs,.bsub,.bsubs,.gsub,.gsubs{font-size: 14px;padding-top: 3px;display: block;}
+.bsubs{background-position:100% -26px;}
+.bssbs{background-position:0px -26px;}
+.gsub{background-position:100% -52px;}
+.gssb{background-position:0px -52px;}
+.gsubs{background-position:100% -78px;}
+.gssbs{background-position:0px -78px;}
+.osub{background-position:100% -104px;}
+.ossb{background-position:0px -104px;}
+.osubs{background-position:100% -130px;}
+.ossbs{background-position:0px -130px;}
+td.sm_img {background-position:center;background-repeat:no-repeat;height: 100px;overflow:hidden;}
+.dblue_f, .dblue_fnw, .dblue_fnw_news {font-weight: bold;color: #003366;font-size: 11px;}
+.dblue_f {white-space: nowrap;}
+.dblue_fnw_news{padding-right: 400px;}
+div.box_text{padding: 0px 2px 4px 2px;}
+td.bt_box, td.bt_box2{padding: 0px 10px 8px 10px;background-color: #e0e0e0;}
+td.bt_box2{border-left: 2px solid #ffffff;}
+ul.news, ul.bullet {list-style-type:none;padding:0px;margin:0px;border:0px;}
+ul.news{height: 69px;overflow: hidden;padding-top: 2px;}
+ul.bullet{padding-top: 28px;padding-right: 10px;white-space: nowrap;}
+li.news, li.bullet {background-repeat:no-repeat;background-position:0px 5px;font-weight: normal;}
+li.news {background-image:url('/web/20110212004747im_/http://www.aleks.com/aleks/website/gdot_blue.gif');font-size: 12px;padding-left:14px;padding-bottom: 2px;padding-top: 2px;}
+li.bullet {background-image:url('/web/20110212004747im_/http://www.aleks.com/aleks/website/gdot_gray.gif');background-position:-2px 4px;font-size: 13px;padding-left:10px;padding-bottom:2px;}
+.dgreen_f {font-weight: bold;color: #006633;font-size: 14px;background: url('/web/20110212004747im_/http://www.aleks.com/aleks/website/Round-Button.gif') no-repeat;margin-left: 2px;padding: 2px 0px 5px 25px;margin-top: 5px;cursor: pointer;}
+table.main_tb{background: #adbdde  right no-repeat;}
+div.cr_title, div.cr_box_title{font-weight: bold;color: #00529b;font-size: 11px;border-bottom: 1px solid #00529b;margin: 0px 5px;padding: 6px 0px 2px;}
+div.cr_box_title{text-align: center;}
+div.cr_label, div.cr_label_over, a.cr_label{cursor: pointer;color: #006633;padding: 3px 5px;margin: 2px 0px;}
+div.cr_label_over{background-color: #dae1f1;font-weight: bold;}
+a.cr_label {text-decoration: none;display: block;font-size: 10px;}
+a.cr_label:hover {background-color: #dae1f1;font-weight: bold;}
+td.cr_content{color: #666666;font-size: 11px;padding: 6px 6px 8px;}
+a.lg_green_but {font-weight: bold;color: #333333;background-color: #E7F7E7;border: 1px solid #C6D6C6;text-decoration: none;padding: 5px 40px;margin: 0px 20px;}
+
+/*
+     FILE ARCHIVED ON 00:47:47 Feb 12, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:31:38 Aug 18, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.347
+  exclusion.robots: 0.013
+  exclusion.robots.policy: 0.007
+  esindex: 0.007
+  cdx.remote: 16.297
+  LoadShardBlock: 132.669 (3)
+  PetaboxLoader3.datanode: 82.462 (4)
+  PetaboxLoader3.resolve: 125.716 (2)
+  load_resource: 98.451
+*/
