@@ -1,0 +1,43 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+/*****
+Copyright © 2011 UC Regents and ALEKS Corporation
+ALEKS® is a registered trademark of ALEKS Corporation.
+*****/
+function di(b){return document.getElementById(b);}var w_or=0;function sel(j,w_jr){if(w_or!=j){var w_Oo=(w_jr?w_jr:'');di('but_'+j).is_ds=false;di('but_'+j).className=w_Oo+'ssbs';di('sbut_'+j).className=w_Oo+'subs';}}function uns(K,w_jr){if(w_or!=K){var w_Oo=(w_jr?w_jr:'');di('but_'+K).is_ds=true;timeoutID=setTimeout(function(){if(di('but_'+K).is_ds){di('but_'+K).className=w_Oo+'ssb';di('sbut_'+K).className=w_Oo+'sub';}},1);}}var w_88=false;function inputFocus(input){if(w_88){input.className=w_88;
+}w_88=input.className;input.className=w_88+' searchHighlighted';}function inputBlur(input){input.className=w_88;}function sm(S){w_or=S;if(w_or!=0){di('but_'+w_or).className='ssbs';di('sbut_'+w_or).className='subs';}}function validateEmail(m){if(/^\w+([\/\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test(m)){return(true);}return(false);}function validateEmailDNS(n){if(validateEmail(n)){return('true'==w_RN('/aleks/webrpc','action=check_email&email='+n,true).responseText);}return(false);}var U=[];function hide_show(node,flag){
+var block=document.getElementById(node);var P=document.getElementById('link_'+node);var I=document.getElementById('text_'+node);if(flag=='hide'){block.style.display='none';P.src="/aleks/gif/rightarrow2.gif";I.style.textDecoration='underline';I.style.fontWeight='';I.style.color='';}else{block.style.display='';P.src="/aleks/gif/downarrow3.gif";I.style.textDecoration='none';I.style.fontWeight='bold';I.style.color='#000000';}}function toggle(node){var block=document.getElementById(node);var K=document.getElementById('link_'+node);
+if(block.style.display=='none'){block.style.display='block';K.src="/aleks/gif/downarrow4.gif";}else{block.style.display='none';K.src="/aleks/gif/rightarrow3.gif";}}function toggle_all(){var P=document.getElementById('text_all');for(var A=0;A<sections_list.length;A++){if(P.innerHTML=='Expand all'){document.getElementById(sections_list[A]).style.display='block';document.getElementById('link_'+sections_list[A]).src="/aleks/gif/downarrow4.gif";}else{document.getElementById(sections_list[A]).style.display='none';
+document.getElementById('link_'+sections_list[A]).src="/aleks/gif/rightarrow3.gif";}}if(P.innerHTML=='Collapse all'){P.innerHTML='Expand all';document.getElementById('link_all').src="/aleks/gif/rightarrow3.gif";}else{P.innerHTML='Collapse all';document.getElementById('link_all').src="/aleks/gif/downarrow4.gif";}}
+
+}
+/*
+     FILE ARCHIVED ON 02:07:41 Mar 03, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:31:55 Aug 16, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.506
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.007
+  esindex: 0.011
+  cdx.remote: 7.313
+  LoadShardBlock: 1939.072 (3)
+  PetaboxLoader3.datanode: 185.186 (4)
+  PetaboxLoader3.resolve: 2583.588 (3)
+  load_resource: 835.173
+*/

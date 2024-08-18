@@ -1,0 +1,39 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+/*****
+Copyright © 2011 UC Regents and ALEKS Corporation
+ALEKS® is a registered trademark of ALEKS Corporation.
+*****/
+function w_h1(N){try{var K=[[/[\300-\305\340-\345]/g, 'A'],[/[\306\346]/g, 'AE'],[/[\310-\313\350-\353]/g, 'E'],[/[\314-\317\354-\357]/g, 'I'],[/[\322-\330\362-\370]/g, 'O'],[/[\331-\334\371-\374]/g, 'U'],[/[\321\361]/g, 'N'],[/[\307\347]/g, 'C'],[/[\375\377]/g, 'y'],[/\W/g, '']];var S=0;for(S=0;S<K.length;S++){N=N.replace(K[S][0], K[S][1]);}N=N.toUpperCase();N=N.replace(/[^A-Z0-9]/g, '');N=N.substring(0,8);return N;}catch(e){}return 'error';}
+
+}
+/*
+     FILE ARCHIVED ON 02:07:41 Mar 03, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:31:52 Aug 16, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.732
+  exclusion.robots: 0.031
+  exclusion.robots.policy: 0.019
+  esindex: 0.011
+  cdx.remote: 10.755
+  LoadShardBlock: 214.906 (3)
+  PetaboxLoader3.datanode: 65.625 (4)
+  PetaboxLoader3.resolve: 174.737 (2)
+  load_resource: 78.33
+*/

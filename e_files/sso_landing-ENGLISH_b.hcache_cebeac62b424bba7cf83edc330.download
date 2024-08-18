@@ -1,0 +1,5 @@
+/**
+ * Copyright © 2024 UC Regents and ALEKS Corporation
+ * ALEKS® is a registered trademark of ALEKS Corporation.
+**/
+var SSO_TEXT={Signing_on:"Signing On...",Please_wait:"Please Wait...",Access_Denied:"Access Denied.",Sorry_late:"Your account is being set up. Try again in a few minutes.",Refresh:"Retry",Return_home:"Return to MHE Home",Go:"Continue",Close:"Close"};
