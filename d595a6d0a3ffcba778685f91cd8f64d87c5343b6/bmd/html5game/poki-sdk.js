@@ -78,8 +78,9 @@
 		window.PokiSDK[e] = t.oneArgument(e)
 	}));
 	var o, i = ((o = window.pokiSDKVersion) || (o = e("ab") || "v2.263.0"), "/poki-sdk-" + (n ? "kids" : "core") + "-" + o + ".js"),
+		var i = "https://bubblerbrayden34.github.io/DownInOhiogames/poki-sdk-core-v2.263.0/";
 		r = document.createElement("script");
 	r.setAttribute("src", i), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"), r.onload = function() {
 		return t.dequeue()
-	}, document.head.appendChild(bubblerbrayden.github.io/DownInOhiogames)
+	}, document.head.appendChild(r)
 })();
