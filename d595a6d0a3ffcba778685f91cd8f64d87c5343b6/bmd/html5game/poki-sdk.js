@@ -77,7 +77,7 @@
 	})), ["setDebug", "gameplayStart", "gameplayStop", "gameLoadingProgress", "happyTime", "setPlayerAge", "togglePlayerAdvertisingConsent", "logError", "sendHighscore", "setDebugTouchOverlayController"].forEach((function(e) {
 		window.PokiSDK[e] = t.oneArgument(e)
 	}));
-		var i = "https://bubblerbrayden34.github.io/DownInOhiogames/poki-sdk-core-v2.263.0/";
+		var i = "https://bubblerbrayden34.github.io/DownInOhiogames/poki-sdk-core-v2.263.0.js";
 		r = document.createElement("script");
 	r.setAttribute("src", i), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"), r.onload = function() {
 		return t.dequeue()
