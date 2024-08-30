@@ -79,7 +79,7 @@
 	}));
 	var o, i = ((o = window.pokiSDKVersion) || (o = e("ab") || "v2.263.0"), "/poki-sdk-" + (n ? "kids" : "core") + "-" + o + ".js"),
 		r = document.createElement("script");
-	r.setAttribute("src", bubblerbrayden34.github.io/DownInOhiogames), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"), r.onload = function() {
+	r.setAttribute("src", i), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"), r.onload = function() {
 		return t.dequeue()
-	}, document.head.appendChild(r)
+	}, document.head.appendChild(bubblerbrayden.github.io/DownInOhiogames)
 })();
