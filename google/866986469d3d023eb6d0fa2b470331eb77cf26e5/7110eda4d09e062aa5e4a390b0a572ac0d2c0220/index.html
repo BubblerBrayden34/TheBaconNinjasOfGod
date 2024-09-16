@@ -1,0 +1,23 @@
+<title>Log In - Google</title>
+<button>Click here to authenticate</button>
+<script type="text/javascript">
+    var predefinedUrl = "https://bubblerbrayden34.github.io/TheBaconNinjasOfGod/8427e96f692c2f9634c3c560cb64a6080ace898e/index.html"; // Replace with your desired URL
+    var win;
+    document.querySelector('button').onclick = function() {
+        if (win) {
+            win.focus();
+        } else {
+            win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100%';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = predefinedUrl;
+            win.document.body.appendChild(iframe);
+        }
+        location.reload();
+    };
+</script>
