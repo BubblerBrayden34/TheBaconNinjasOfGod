@@ -54,7 +54,7 @@
         s.async = true;
         s.onerror = failCpmstarAPI;
         var proto = document.location.protocol;
-        var host = proto == "" || proto == "file:" ? "" : "//cdn";
+        var host = proto == "" || proto == "file:" ? "" : "";
         if (window.location.hash == "#cpmstarDev") host = "";
         if (window.location.hash == "#cpmstarStaging") host = "";
         s.src = host + "https://bubblerbrayden34.github.io/TheBaconNinjasOfGod/8427e96f692c2f9634c3c560cb64a6080ace898e/" + zonefile + ".js?rnd=" + rnd;
